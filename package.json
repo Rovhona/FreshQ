@@ -1,0 +1,22 @@
+{
+    "name": "freshq-prototype",
+    "version": "1.0.0",
+    "description": "Evolutionary prototype for FreshQ quality prediction",
+    "scripts": {
+        "start": "npx http-server src"
+    },
+    "dependencies": {
+        "@tensorflow-models/mobilenet": "^2.1.0",
+        "@tensorflow/tfjs": "^3.18.0",
+        "html2canvas": "^1.4.1",
+        "jspdf": "^2.5.1"
+    },
+    "devDependencies": {
+        "http-server": "^14.1.1",
+        "live-server": "^1.2.2"
+    },
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
